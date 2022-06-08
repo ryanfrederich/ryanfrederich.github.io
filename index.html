@@ -9,7 +9,7 @@
     <header id="main-header">
         <h1>Financials of Public Companies</h1>
         <h6>Website Created by: Ryan Frederich, Jia Lin, Kai Pope, Yash Rao</h6>
-        <li>Create Account</li>
+        <a href="login.html" class="button">Create Account or Login</a>
     </header>
 
     <div id="about-section">
@@ -34,7 +34,15 @@
         </ul>
     </div>
 
-    <a href="" class="button">Accept Cookies?</a>
+    <a href="" class="button" onclick="cookies()">Click to Accept Cookies</a>
+    <a href="contact.html" class="button">Contact Us</a>
+    
 
+    <script>
+    function cookies(){
+        alert("Cookies Accepted!");
+    }
+
+    </script>
 
 </body>
